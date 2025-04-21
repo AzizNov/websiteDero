@@ -51,8 +51,9 @@
                 </div>
                 <div>
                   <h4 class="font-semibold mb-1">Alamat Toko</h4>
-                  <p class="text-gray-600">Jl. Printer No. 123, Kel. Tinta Sejahtera, Kec. Cartridge, Kota Jakarta
-                    Selatan, DKI Jakarta 12345</p>
+                  <p class="text-gray-600">Gor larangan, Jl. Ciledug Raya, Larangan Utara, Kec. Larangan, Kota
+                    Tangerang, Banten 15154
+                    Sosial Media</p>
                 </div>
               </div>
 
@@ -62,12 +63,11 @@
                 </div>
                 <div>
                   <h4 class="font-semibold mb-1">Telepon</h4>
-                  <p class="text-gray-600">(021) 12345678</p>
-                  <p class="text-gray-600">0812-3456-7890 (WhatsApp)</p>
+                  <p class="text-gray-600">0812-9365-1300 (WhatsApp)</p>
                 </div>
               </div>
 
-              <div class="flex items-start">
+              <!-- <div class="flex items-start">
                 <div class="text-blue-600 mr-4 mt-1">
                   <i class="fas fa-envelope text-2xl"></i>
                 </div>
@@ -76,7 +76,7 @@
                   <p class="text-gray-600">info@namatokotinta.com</p>
                   <p class="text-gray-600">cs@namatokotinta.com</p>
                 </div>
-              </div>
+              </div> -->
 
               <div class="flex items-start">
                 <div class="text-blue-600 mr-4 mt-1">
@@ -84,9 +84,7 @@
                 </div>
                 <div>
                   <h4 class="font-semibold mb-1">Jam Operasional</h4>
-                  <p class="text-gray-600">Senin - Jumat: 08.00 - 17.00 WIB</p>
-                  <p class="text-gray-600">Sabtu: 08.00 - 15.00 WIB</p>
-                  <p class="text-gray-600">Minggu & Hari Libur: Tutup</p>
+                  <p class="text-gray-600">Tiap Hari Buka</p>
                 </div>
               </div>
             </div>

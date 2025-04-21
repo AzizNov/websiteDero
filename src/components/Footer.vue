@@ -1,12 +1,12 @@
 <template>
-  <footer class="bg-gradient-to-r from-amber-500 to-amber-500 text-black py-12">
+  <footer class="bg-[#f8b62d] text-black py-12">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
 
         <!-- Logo & Deskripsi -->
         <div>
           <div class="flex items-center space-x-2 mb-4">
-            <img src="/print-solid.svg" class="w-5 h-5" />
+            <img src="/logo.png" class="w-10 h-10" />
             <span class="text-xl font-bold">TokoTinta</span>
           </div>
           <p class="">
@@ -37,7 +37,8 @@
               <div>
                 <h4 class="font-semibold mb-1">Alamat Toko</h4>
                 <p class="">
-                  Jl. Printer No. 123, Kel. Tinta Sejahtera, Kec. Cartridge, Kota Jakarta Selatan, DKI Jakarta 12345
+                  Gor larangan, Jl. Ciledug Raya, Larangan Utara, Kec. Larangan, Kota Tangerang, Banten 15154
+                  Sosial Media
                 </p>
               </div>
             </div>
@@ -47,12 +48,11 @@
               <img src="/phone-solid.svg" class="w-5 h-5" />
               <div>
                 <h4 class="font-semibold mb-1">Telepon</h4>
-                <p class="">(021) 12345678</p>
-                <p class="">0812-3456-7890 (WhatsApp)</p>
+                <p class="">0812-9365-1300 (WhatsApp)</p>
               </div>
             </div>
 
-            <!-- Email -->
+            <!-- Email
             <div class="flex items-start gap-3">
               <img src="/envelope-solid.svg" class="w-5 h-5" />
               <div>
@@ -60,16 +60,14 @@
                 <p class="">info@namatokotinta.com</p>
                 <p class="">cs@namatokotinta.com</p>
               </div>
-            </div>
+            </div> -->
 
             <!-- Jam Operasional -->
             <div class="flex items-start gap-3">
               <img src="/clock-solid.svg" class="w-5 h-5" />
               <div>
                 <h4 class="font-semibold mb-1">Jam Operasional</h4>
-                <p class="">Senin - Jumat: 08.00 - 17.00 WIB</p>
-                <p class="">Sabtu: 08.00 - 15.00 WIB</p>
-                <p class="">Minggu & Hari Libur: Tutup</p>
+                <p class="">Tiap Hari buka</p>
               </div>
             </div>
 
@@ -78,7 +76,7 @@
 
       </div>
       <div class="border-t border-black mt-12 pt-6 text-center">
-        <p class="">&copy; 2023 TokoTinta. All rights reserved.</p>
+        <p class="">&copy; 2025 Dero Catridge. All rights reserved.</p>
       </div>
     </div>
   </footer>
