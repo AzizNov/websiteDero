@@ -1,7 +1,7 @@
 <template>
   <section id="home" class="bg-[#f8b62d] py-20 md:py-32 px-4">
     <div class="container mx-auto text-center">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">Solusi Kebutuhan Tinta Printer Anda</h1>
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Beli tinta toner cartridge Baru dan bekas semua tipe</h1>
       <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Menyediakan tinta printer berkualitas dengan harga terbaik
         untuk semua merek printer</p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">

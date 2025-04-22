@@ -7,11 +7,10 @@
         <div>
           <div class="flex items-center space-x-2 mb-4">
             <img src="/logo.png" class="w-10 h-10" />
-            <span class="text-xl font-bold">TokoTinta</span>
+            <span class="text-xl font-bold">Dero Cartidge</span>
           </div>
           <p class="">
-            Solusi lengkap kebutuhan tinta printer Anda dengan kualitas terbaik dan harga kompetitif.
-          </p>
+            🖨️ Jual tinta & toner cartridge berbagai tipe, baik baru maupun bekas! Cocok untuk kebutuhan rumah, kantor, atau bisnis Anda. Kualitas terjamin, harga bersahabat!</p>
         </div>
 
         <!-- Tautan Cepat -->
