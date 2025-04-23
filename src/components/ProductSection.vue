@@ -74,6 +74,24 @@ const products: Product[] = [
     title: 'Tinta Pixma 810-811 Original',
     description: 'Tinta original untuk printer Canon Pixma',
     price: 'Rp 450.000'
+  },
+  {
+    image: '/810-811.jpg',
+    title: 'Tinta Pixma 810-811 Original',
+    description: 'Tinta original untuk printer Canon Pixma',
+    price: 'Rp 450.000'
+  },
+  {
+    image: '/810-811.jpg',
+    title: 'Tinta Pixma 810-811 Original',
+    description: 'Tinta original untuk printer Canon Pixma',
+    price: 'Rp 450.000'
+  },
+  {
+    image: '/810-811.jpg',
+    title: 'Tinta Pixma 810-811 Original',
+    description: 'Tinta original untuk printer Canon Pixma',
+    price: 'Rp 450.000'
   }
 ]
 </script>

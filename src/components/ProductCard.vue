@@ -25,7 +25,7 @@ const props = defineProps<{
   price: string
 }>()
 
-const waNumber = '812-9365-1300'
+const waNumber = '6281293651300'
 const message = computed(() =>
   `Halo, saya tertarik dengan produk "${props.title}" (${props.price}). Saya ingin menanyakan lebih lanjut tentang produk ini.`
 )

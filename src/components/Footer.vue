@@ -10,7 +10,8 @@
             <span class="text-xl font-bold">Dero Cartidge</span>
           </div>
           <p class="">
-            🖨️ Jual tinta & toner cartridge berbagai tipe, baik baru maupun bekas! Cocok untuk kebutuhan rumah, kantor, atau bisnis Anda. Kualitas terjamin, harga bersahabat!</p>
+            🖨️ Jual tinta & toner cartridge berbagai tipe, baik baru maupun bekas! Cocok untuk kebutuhan rumah, kantor,
+            atau bisnis Anda. Kualitas terjamin, harga bersahabat!</p>
         </div>
 
         <!-- Tautan Cepat -->
@@ -69,6 +70,48 @@
                 <p class="">Tiap Hari buka</p>
               </div>
             </div>
+
+            <div class="">
+              <h4 class="font-semibold mb-4 text-black">Ikuti Kami</h4>
+              <div class="flex space-x-6">
+                <!-- Facebook -->
+                <div class="flex flex-col items-center">
+                  <a href="https://www.facebook.com/share/155puBT4Tt/"
+                    class="bg-white text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-60 transition">
+                    <img src="/facebook-brands.svg" class="w-5 h-5" />
+                  </a>
+                  <span class="text-xs text-black mt-1">Facebook</span>
+                </div>
+
+                <!-- Instagram -->
+                <div class="flex flex-col items-center">
+                  <a href="https://www.instagram.com/carloseromie?igsh=MXc2Yzd2b2Zsc2M5aw=="
+                    class="bg-white text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-60 transition">
+                    <img src="/instagram-brands.svg" class="w-5 h-5" />
+                  </a>
+                  <span class="text-xs text-black mt-1">Instagram</span>
+                </div>
+
+                <!-- YouTube -->
+                <div class="flex flex-col items-center">
+                  <a href="https://youtube.com/@carlose_romie_official?si=HsVpU1E5LAt7DzAa"
+                    class="bg-white text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-60 transition">
+                    <img src="/youtube-brands.svg" class="w-5 h-5" />
+                  </a>
+                  <span class="text-xs text-black mt-1">YouTube</span>
+                </div>
+
+                <!-- Tokopedia -->
+                <div class="flex flex-col items-center">
+                  <a href="https://www.tokopedia.com/derocartridge"
+                    class="bg-white text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-60 transition">
+                    <img src="/shop-solid.svg" class="w-5 h-5" />
+                  </a>
+                  <span class="text-xs text-black mt-1">Tokopedia</span>
+                </div>
+              </div>
+            </div>
+
 
           </div>
         </div>
