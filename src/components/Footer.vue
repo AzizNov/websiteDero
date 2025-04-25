@@ -7,7 +7,7 @@
         <div>
           <div class="flex items-center space-x-2 mb-4">
             <img src="/logo.png" class="w-10 h-10" />
-            <span class="text-xl font-bold">Dero Cartidge</span>
+            <span class="text-xl font-bold">Dero Cartridge</span>
           </div>
           <p class="">
             🖨️ Jual tinta & toner cartridge berbagai tipe, baik baru maupun bekas! Cocok untuk kebutuhan rumah, kantor,
@@ -118,7 +118,7 @@
 
       </div>
       <div class="border-t border-black mt-12 pt-6 text-center">
-        <p class="">&copy; 2025 Dero Catridge. All rights reserved.</p>
+        <p class="">&copy; 2025 Dero Cartridge. All rights reserved.</p>
       </div>
     </div>
   </footer>

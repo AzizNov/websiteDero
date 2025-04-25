@@ -25,7 +25,7 @@ interface Services {
 const services: Services[] = [
   {
     icon: 'fas fa-syringe',
-    title: 'Refill Tinta',
+    title: 'Jual Beli Tinta',
     description: 'Layanan isi ulang tinta printer dengan kualitas terbaik dan harga terjangkau untuk semua merek printer.',
   },
   {

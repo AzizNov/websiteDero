@@ -4,7 +4,7 @@
       <!-- Logo -->
       <div class="flex items-center space-x-2">
         <img src="/logo.png" class="w-5 h-5" />
-        <a href="#" class="text-xl font-bold">Dero Catridge</a>
+        <a href="#" class="text-xl font-bold">Dero Cartridge</a>
       </div>
 
       <!-- Desktop Menu -->
