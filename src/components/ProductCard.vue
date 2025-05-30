@@ -35,7 +35,7 @@ const props = defineProps<{
 const waNumber = "6281293651300";
 const message = computed(
   () =>
-    `Halo Dero, saya tertarik dengan produk "${props.title}" (${props.price}). Saya ingin menanyakan lebih lanjut tentang produk ini.`,
+    `Halo Dero, saya tertarik dengan produk "${props.productName}". Saya ingin menanyakan lebih lanjut tentang produk ini.`,
 );
 
 const waLink = computed(

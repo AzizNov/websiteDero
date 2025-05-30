@@ -26,7 +26,7 @@
           v-for="(product, index) in products"
           :key="index"
           :imageSrc="product.imageSrc"
-          :productName="product.title"
+          :productName="product.productName"
         />
       </div>
     </section>
@@ -44,7 +44,7 @@ interface Brand {
 
 interface Product {
   imageSrc: string;
-  title: string;
+  productName: string;
 }
 
 const brands: Brand[] = [
@@ -58,63 +58,51 @@ const brands: Brand[] = [
 
 const products: Product[] = [
   {
-    id: 1,
-    title: "HP 76A Original LaserJet",
+    productName: "HP 76A Original LaserJet",
     imageSrc: "/products/laserjet-871.avif",
   },
   {
-    id: 2,
-    title: "HP 87A Original LaserJet",
+    productName: "HP 87A Original LaserJet",
     imageSrc: "/products/laserjet-76a.avif",
   },
   {
-    id: 3,
-    title: "HP 147A Original LaserJet",
+    productName: "HP 147A Original LaserJet",
     imageSrc: "/products/hp-laserjet-147a.avif",
   },
   {
-    id: 4,
-    title: "HP 680 Original Ink Advantage Cartridge",
+    productName: "HP 680 Original Ink Advantage Cartridge",
     imageSrc: "/products/hp-680.webp",
   },
   {
-    id: 5,
-    title: "HP 682 Original Ink Advantage Cartridge",
+    productName: "HP 682 Original Ink Advantage Cartridge",
     imageSrc: "/products/hp-682.webp",
   },
   {
-    id: 6,
-    title: "HP 802 Original Ink Advantage Cartridge",
+    productName: "HP 802 Original Ink Advantage Cartridge",
     imageSrc: "/products/hp-802.webp",
   },
   {
-    id: 7,
-    title: "HP 803 Original Ink Advantage Cartridge",
+    productName: "HP 803 Original Ink Advantage Cartridge",
     imageSrc: "/products/hp-803.webp",
   },
   {
-    id: 8,
-    title: "HP 955 Original Ink Advantage Cartridge",
+    productName: "HP 955 Original Ink Advantage Cartridge",
     imageSrc: "/products/hp-955.webp",
   },
   {
-    id: 9,
-    title: "HP GT52 Original Ink Advantage Cartridge",
+    productName: "HP GT52 Original Ink Advantage Cartridge",
     imageSrc: "/products/hp-gt52.webp",
   },
   {
-    id: 10,
-    title: "Canon 810 Original Ink",
+    productName: "Canon 810 Original Ink",
     imageSrc: "/products/cartridge-canon-810.jpg",
   },
   {
-    id: 11,
-    title: "Brother 5000 Original Ink",
+    productName: "Brother 5000 Original Ink",
     imageSrc: "/products/tinta-brother-5000.png",
   },
   {
-    id: 12,
-    title: "Brother 563 Original Ink",
+    productName: "Brother 563 Original Ink",
     imageSrc: "/products/tinta-brother-lc563.png",
   },
 ];
