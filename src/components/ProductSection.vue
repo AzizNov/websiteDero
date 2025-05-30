@@ -1,97 +1,121 @@
 <template>
-  <section id="products" class="py-16">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-black">Produk Kami</h2>
-      <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-        Kami menyediakan berbagai macam tinta printer untuk semua merek printer terkenal dengan kualitas terjamin.
+  <div id="products" class="font-sans antialiased text-gray-800">
+    <section class="py-12 px-4 sm:px-6 lg:px-8 text-center bg-white">
+      <h2 class="text-3xl font-bold mb-4">Produk Kami</h2>
+      <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+        Kami menyediakan berbagai macam tinta printer untuk semua merek printer
+        terkenal dengan kualitas terjamin.
       </p>
-
-      <!-- Brand Section -->
-      <div class="mb-12">
-        <h3 class="text-2xl font-semibold mb-6 text-black">Merek Printer yang Kami Dukung</h3>
-        <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6">
-          <BrandLogo v-for="(brand, index) in brands" :key="index" :logo="brand.logo" :name="brand.name" />
-        </div>
+      <div class="flex flex-wrap justify-center items-center gap-8">
+        <BrandLogo
+          v-for="(brand, index) in brands"
+          :key="index"
+          :logo="brand.logo"
+          :name="brand.name"
+        />
       </div>
+    </section>
 
-      <!-- Products Section -->
-      <h3 class="text-2xl font-semibold mb-6 text-black">Produk Unggulan Kami</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <ProductCard v-for="(product, index) in products" :key="index" :image="product.image" :title="product.title"
-          :description="product.description" :price="product.price" />
+    <section class="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <h2 class="text-3xl font-bold text-center mb-10">Produk Unggulan Kami</h2>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 xl:gap-8 max-w-6xl mx-auto"
+      >
+        <ProductCard
+          v-for="(product, index) in products"
+          :key="index"
+          :imageSrc="product.imageSrc"
+          :productName="product.title"
+        />
       </div>
-
-      <!-- CTA -->
-      <!-- <div class="text-center mt-12">
-        <a href="#" class="inline-block bg-amber-600 hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-lg transition">
-          Lihat Semua Produk
-        </a>
-      </div> -->
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script setup lang="ts">
-import BrandLogo from './BrandLogo.vue'
-import ProductCard from './ProductCard.vue'
+import BrandLogo from "./BrandLogo.vue";
+import ProductCard from "./ProductCard.vue";
 
 interface Brand {
-  logo: string
-  name: string
+  logo: string;
+  name: string;
 }
 
 interface Product {
-  image: string
-  title: string
-  description: string
-  price: string
+  imageSrc: string;
+  title: string;
 }
 
 const brands: Brand[] = [
-  { logo: 'https://logo.clearbit.com/hp.com', name: 'HP' },
-  { logo: 'https://logo.clearbit.com/canon.com', name: 'Canon' },
-  { logo: 'https://logo.clearbit.com/epson.com', name: 'Epson' },
-  { logo: 'https://logo.clearbit.com/brother.com', name: 'Brother' },
-  { logo: 'https://logo.clearbit.com/xerox.com', name: 'Xerox' },
-  { logo: 'https://logo.clearbit.com/samsung.com', name: 'Samsung' }
-]
+  { logo: "https://logo.clearbit.com/hp.com", name: "HP" },
+  { logo: "https://logo.clearbit.com/canon.com", name: "Canon" },
+  { logo: "https://logo.clearbit.com/epson.com", name: "Epson" },
+  { logo: "https://logo.clearbit.com/brother.com", name: "Brother" },
+  { logo: "https://logo.clearbit.com/xerox.com", name: "Xerox" },
+  { logo: "https://logo.clearbit.com/samsung.com", name: "Samsung" },
+];
 
 const products: Product[] = [
   {
-    image: '/98.jpg',
-    title: 'Tinta Pixma 98 Original',
-    description: 'Tinta original untuk printer Canon Pixma',
-    price: 'Rp 250.000'
+    id: 1,
+    title: "HP 76A Original LaserJet",
+    imageSrc: "/products/laserjet-871.avif",
   },
   {
-    image: '/745.jpg',
-    title: 'Tinta Pixma 745 Original',
-    description: 'Tinta original untuk printer Canon Pixma',
-    price: 'Rp 230.000'
+    id: 2,
+    title: "HP 87A Original LaserJet",
+    imageSrc: "/products/laserjet-76a.avif",
   },
   {
-    image: '/810-811.jpg',
-    title: 'Tinta Pixma 810-811 Original',
-    description: 'Tinta original untuk printer Canon Pixma',
-    price: 'Rp 550.000'
+    id: 3,
+    title: "HP 147A Original LaserJet",
+    imageSrc: "/products/hp-laserjet-147a.avif",
   },
   {
-    image: '/810-811.jpg',
-    title: 'Tinta Pixma 810-811 Original',
-    description: 'Tinta original untuk printer Canon Pixma',
-    price: 'Rp 450.000'
+    id: 4,
+    title: "HP 680 Original Ink Advantage Cartridge",
+    imageSrc: "/products/hp-680.webp",
   },
   {
-    image: '/810-811.jpg',
-    title: 'Tinta Pixma 810-811 Original',
-    description: 'Tinta original untuk printer Canon Pixma',
-    price: 'Rp 450.000'
+    id: 5,
+    title: "HP 682 Original Ink Advantage Cartridge",
+    imageSrc: "/products/hp-682.webp",
   },
   {
-    image: '/810-811.jpg',
-    title: 'Tinta Pixma 810-811 Original',
-    description: 'Tinta original untuk printer Canon Pixma',
-    price: 'Rp 450.000'
-  }
-]
+    id: 6,
+    title: "HP 802 Original Ink Advantage Cartridge",
+    imageSrc: "/products/hp-802.webp",
+  },
+  {
+    id: 7,
+    title: "HP 803 Original Ink Advantage Cartridge",
+    imageSrc: "/products/hp-803.webp",
+  },
+  {
+    id: 8,
+    title: "HP 955 Original Ink Advantage Cartridge",
+    imageSrc: "/products/hp-955.webp",
+  },
+  {
+    id: 9,
+    title: "HP GT52 Original Ink Advantage Cartridge",
+    imageSrc: "/products/hp-gt52.webp",
+  },
+  {
+    id: 10,
+    title: "Canon 810 Original Ink",
+    imageSrc: "/products/cartridge-canon-810.jpg",
+  },
+  {
+    id: 11,
+    title: "Brother 5000 Original Ink",
+    imageSrc: "/products/tinta-brother-5000.png",
+  },
+  {
+    id: 12,
+    title: "Brother 563 Original Ink",
+    imageSrc: "/products/tinta-brother-lc563.png",
+  },
+];
 </script>
