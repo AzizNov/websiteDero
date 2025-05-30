@@ -1,22 +1,25 @@
 <template>
   <div
-    class="product-card bg-white rounded-lg overflow-hidden shadow-md border border-gray-200"
+    class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105"
   >
-    <img :src="image" :alt="title" class="w-full h-48 object-cover" />
-    <div class="p-6">
-      <h4 class="text-xl font-semibold mb-2">{{ title }}</h4>
-      <p class="text-gray-600 mb-4">{{ description }}</p>
-      <div class="flex justify-between items-center">
-        <span class="text-lg font-bold text-black">{{ price }}</span>
-        <a
-          :href="waLink"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="bg-[#f8b62d] text-white py-2 px-4 rounded transition inline-block"
-        >
-          Beli
-        </a>
-      </div>
+    <div class="p-4 flex justify-center items-center h-48">
+      <img
+        :src="imageSrc"
+        :alt="productName"
+        class="max-h-full max-w-full object-contain"
+      />
+    </div>
+    <div class="p-4 border-t border-gray-100 text-center">
+      <h3 class="text-lg font-semibold text-gray-700 mb-4">
+        {{ productName }}
+      </h3>
+      <a
+        :href="waLink"
+        target="_blank"
+        class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-lg text-sm transition duration-300 ease-in-out"
+      >
+        WhatsApp Kami
+      </a>
     </div>
   </div>
 </template>
@@ -25,19 +28,17 @@
 import { computed } from "vue";
 
 const props = defineProps<{
-  image: string;
-  title: string;
-  description: string;
-  price: string;
+  imageSrc: string;
+  productName: string;
 }>();
 
 const waNumber = "6281293651300";
 const message = computed(
   () =>
-    `Halo Dero, saya tertarik dengan produk "${props.title}" (${props.price}). Saya ingin menanyakan lebih lanjut tentang produk ini.`
+    `Halo Dero, saya tertarik dengan produk "${props.title}" (${props.price}). Saya ingin menanyakan lebih lanjut tentang produk ini.`,
 );
 
 const waLink = computed(
-  () => `https://wa.me/${waNumber}?text=${encodeURIComponent(message.value)}`
+  () => `https://wa.me/${waNumber}?text=${encodeURIComponent(message.value)}`,
 );
 </script>
